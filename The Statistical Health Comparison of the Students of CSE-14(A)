@@ -1,0 +1,100 @@
+\documentclass[11pt,twocolumn]{article}
+\usepackage{amsmath}
+
+\title{\textbf{The Statistical Health Comparison of the Students of CSE-14(A)} }
+\author{Aninda Bhattacharjee\\143044\\Ferdous Ahammed\\143047\\ \\Department of Computer Science and Engineering\\Rajshahi University of Engineering and Technology}
+
+\usepackage{graphicx}
+
+\begin{document}
+\maketitle
+\section{Abstract}
+Most of the students of CSE 14(A) are belonging to the age around 22-23. In this period of age the students should be fit in body and lead a healthy life.But most of the students are suffering from lack of nutrition.This miserable situation occurs due to unhealthy environment of hall and unwholesome meal provided by the hall authority.And these conditions badly affect their  mentality and worsen their physical stability.Under these circumstances,it hampers their potentiality which badly impact their academic result and creative thinking.
+\section{Introduction}
+Health is wealth. It is the most important thing to lead a successful and prosperous life.So everyone needs to keep themselves fit and healthy for the proper utilization of life and career. In the class of CSE 14 A section, all of the students are young and enthusiastic. As they study in engineering discipline, it is one of the toughest curricula in undergraduate level [1]. So all the students should be well focused to their study and working hard to enrich their technical knowledge.But it is very tough for them to maintain a sound health without proper diet. Basically sound health depends on various factors. One of them is the height-weight ratio which can be calculated in different way.According to them the most popular method is Body Mass Index (BMI) method [2].With the help of BMI method,one can calculate ones weight with respect to his/her height.Most of the students have to lead hall life in undergraduate level. The day to day meal of their respective halls does not provide sufficient nutrition according to the demand. Besides there is no variation of food. So the students feel monotony and often skip their meal. Besides the environment of the hall is very damp and unhealthy.This situation badly affects their health and they can not concentrate on their study properly.And they are deprived of getting clean and immaculate environment which badly affects their result.\\\\
+\textbf{Body Mass Index Ratio:} \\\\
+Body Mass Index ratio is the measurement of body fat which can be determined by using height and weight[3]. According to Health Authority, people having BMI less than 18.5 are underweight,18.5-25 are ideal, 25-29 are overweight and greater than 30 are obese[4].\\\\
+Here height and weight data is collected from students of CSE 14 A section.With the help of Body Mass Index(BMI)method we find out height and weight ratio of all the students. Here we divide the data into two categories 1)resident students 2)non-resident students.\\\\
+\textbf{Sample Mean:} \\\\
+Sample mean is basically used for ungrouped data. The sample mean is the sum of all the sample values divided by the number of the sample values.\\\\
+\begin{equation}
+\bar{X}=\frac{\sum X}{n}
+\end{equation}
+\\Here n is the total number of values in the sample.From eq(1) we find out the average BMI ratio of the resident students and the non-resident students.Here is the table of sample data:
+\begin{table}[htbp]
+  \centering
+  \caption{Sample data of the students of CSE-14(A) }
+    \begin{tabular}{p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}}
+    \textbf{Roll} & \textbf{Height} & \textbf{Weight} & \textbf{BMI ratio} & \textbf{CGPA} \\
+    143034 & 5'7"  & 70    & 24.2  & 3.71 \\
+    143001 & 5'9"  & 72    & 23.4  & 2.88 \\
+    143015 & 5'7"  & 60    & 20.72 & 3.15 \\
+    143043 & 5'8"  & 65    & 21.79 & 3.15 \\
+    143024 & 5'6"  & 59    & 21    & 3.1 \\
+    \end{tabular}%
+  \label{tab:addlabel}%
+\end{table}%
+\\We can find out the average BMI of the category 1 and 2 using equation 1. We can see that the average BMI of Category 1(resident students) is 22.33 and Category 2 (non-resident students)  is 23.88 .So both of the categories belong to ideal BMI standard[5]. But we observe that the non-resident students who live with family have more BMI ratio than the resident students.\\\\ 
+Students living with his family have proper environment to study. This can help them to achieve a standard CGPA and the average CGPA of them is 3.61[5]. On the other hand ,the students living in the halls  have to live in unhealthy and filthy environment.They are deprived of all the facilities which is necessary to continue their studies.Because of the proper environment of study and poor health condition they cannot achieve their desired CGPA as good as non-resident students who live with family and the average CGPA of resident students is about 3.21[6]. So there is a huge difference between the resident and non-resident students on amount of CGPA.
+\begin{table}[htbp]
+  \centering
+  \caption{Population data of non-resident students}
+    \begin{tabular}{p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}}
+    \textbf{Roll } & \textbf{Height} & \textbf{Weight } & \textbf{BMI ratio} & \textbf{CGPA} \\
+    143042 & 5'7.5" & 55    & 18.7  & 3.36 \\
+    143005 & 5'3"  & 69    & 26.9  & 3.8 \\
+    143003 & 5'1"  & 48    & 20    & 3.54 \\
+    143010 & 5'0"  & 65    & 28    & 3.69 \\
+    143007 & 5'3"  & 65    & 25.4  & 3.66 \\
+    \end{tabular}%
+  \label{tab:addlabel}%
+\end{table}%
+\\\\But there is a little problem. The BMI (Body Mass Index) ratio of the non-resident students is quite unstable. According to the five students, three of them have overweight and one of them have underweight. Though their BMI ratio is higher than the resident students,their unstable weight is also great matter of anxiety. So they should also follow diet chart to keep themselves fit.From the Table 2, we see among the five students three students have BMI ratio  26.9, 28 and 25.4 which are above the value of 25. Again one of the students have BMI ratio 18.7 which is close to the base value 18.5 and the others BMI ratio are within good range. So we can clearly say that they hold unstable BMI ratio.
+\section{Experimental Analysis}
+All the data are taken from the students of A section of CSE 14. We collect the height, weight  and CGPA from both resident and non resident students and find out the BMI ratio of every students.
+\begin{figure}[h]
+ \includegraphics[scale=.5]{a.jpg}
+ \caption{A chart showing the BMI ratio of resident student}
+ \label{fig:boat1}
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[scale=.8]{b.jpg}
+ \caption{A chart showing the BMI ratio of non-resident students}
+ \label{fig:boat1}
+\end{figure}
+\\\\In Fig.1 we see the BMI ratio of resident students  and in Fig.2 we see the BMI ratio of the non-resident students.\\\\
+\begin{figure}[h]
+ \includegraphics[scale=.6]{d.jpg}
+ \caption{The chart show the CGPA of  resident students}
+ \label{fig:boat1}
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[scale=.5]{c.jpg}
+ \caption{A graph showing the CGPA of non res}
+ \label{fig:boat1}
+\end{figure}
+\\\\In Fig.3 we see the CGPA of the students leading hall life and in Fig.4 we see the CGPA of student living with family.From chart we observe that the CGPA  generally varies between 3.00 to 3.50 .\\\\
+\begin{figure}[h]
+ \includegraphics[scale=.5]{f.jpg}
+ \caption{Comparison of BMI ratio between catagory-1 and category-2}
+ \label{fig:boat1}
+\end{figure}
+\\\\In Fig.5 we see the graph between category-1(resident students) and category-2(non resident students). From the Fig.5 we can clearly observe that the BMI ratio curve of category-1 is slightly higher than the category-2.
+\begin{figure}[h!]
+ \includegraphics[scale=.5]{e.jpg}
+ \caption{Comparison of CGPA between catagory-1 and category-2}
+ \label{fig:boat1}
+\end{figure}
+\\Again From Fig.6 we see the graph between category-1(resident students) and category-2(non resident students). In Fig.6 we can observe without any doubt that the CGPA curve of category-1 is upper than the category-2.
+\section{Conclusion}
+In this paper we analyze the statistical health comparison among the students of CSE 14 A section. We observe that the non-resident students have better average of BMI ratio than the resident students. They also secure a good figure of CGPA. There are some limitations of this experiment. The BMI ratio is not the only factor to determine health characteristics. It depends on other factors also.So All the students should come under diet chart and lead a healthy and happy life.
+\begin{center}
+REFERENCES
+\end{center}
+[1]www.thebestcolleges.org, TOP 10 EASIEST AND HARDEST COLLEGE DEGREE MAJORS, http://www.thebestcolleges.org/top-10-easiest-and-hardest-college-degree-majors/ \\
+$[2]$ www.nhlbi.nih.gov,Calculate Your Body Mass Index\\
+$[3]$ www.nhlbi.nih.gov,Calculate Your Body Mass Index\\
+$[4]$ www.nhlbi.nih.gov,Calculate Your Body Mass Index\\
+$[5]$ Comparison of BMI ratio,https://drive.google.com/drive/my-drive \\
+$[6]$ Comparison of CGPA,https://drive.google.com/drive/my-drive \\
+\end{document}
